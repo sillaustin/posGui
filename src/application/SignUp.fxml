@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+   <children>
+      <Button layoutX="173.0" layoutY="356.0" mnemonicParsing="false" onAction="#signEnter" text="Enter" />
+      <Label fx:id="headerID" layoutX="14.0" layoutY="14.0" text=" Sign Up.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="97.0" text="Phone number.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="171.0" text="Age.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numField" layoutX="72.0" layoutY="132.0" prefHeight="26.0" prefWidth="263.0" promptText="xxxxxxx" />
+      <TextField fx:id="ageField" layoutX="72.0" layoutY="206.0" prefHeight="26.0" prefWidth="263.0" promptText="xx" />
+      <RadioButton fx:id="milBtn" layoutX="104.0" layoutY="270.0" mnemonicParsing="false" text="Select if you are a veteran." />
+      <Label layoutX="127.0" layoutY="72.0" text="Please use only numbers." />
+   </children>
+</AnchorPane>
