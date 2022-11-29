@@ -33,7 +33,7 @@
       <CheckBox fx:id="cb5" layoutX="40.0" layoutY="232.0" mnemonicParsing="false" onAction="#cb5Act" text="CheckBox" visible="false" />
       <CheckBox fx:id="cb6" layoutX="40.0" layoutY="257.0" mnemonicParsing="false" onAction="#cb6Act" text="CheckBox" visible="false" />
       <Label fx:id="pntCount" layoutX="35.0" layoutY="297.0" text="You have points." />
-      <TextField fx:id="minBox" layoutX="321.0" layoutY="84.0" prefHeight="26.0" prefWidth="41.0" promptText="min" visible="false" />
+      <TextField fx:id="minBox" layoutX="321.0" layoutY="84.0" prefHeight="26.0" prefWidth="41.0" promptText="min" text="0" visible="false" />
       <Label fx:id="timePromt" layoutX="124.0" layoutY="88.0" text="How log will it be till you arrive?" visible="false" />
    </children>
 </AnchorPane>
